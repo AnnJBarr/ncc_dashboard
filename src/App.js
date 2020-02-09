@@ -168,7 +168,7 @@ class App extends React.Component {
         <Header />
         <User name={this.state.user.displayName} email={this.state.user.email} notifications={this.state.user.notifications}/>
         <Totals severity={this.state.scan.severityCounts}/>
-        <Vulnerabilities />
+        <Vulnerabilities date = {this.state.scan.datCompleted} vulnerabilities={this.state.scan.vulnerabilities}/>
 
 
       </div>

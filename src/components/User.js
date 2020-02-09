@@ -8,7 +8,7 @@ class User extends React.Component {
         const emailLink = "mailto:" + this.props.email + "?Subject=Scan%20dashboard%20message"
         const notifications = this.props.notifications
         console.log(notifications)
-    
+
         return (
             <div className="row appRow d-none d-md-block">
                 <div className="mx-auto col-12 col-lg-8">
@@ -16,10 +16,10 @@ class User extends React.Component {
                         <div className="card-body">
                             <h3 className="card-title">User Details <FontAwesomeIcon icon={faUserShield} /></h3>
                             <div className="card-text">User - <a href={emailLink}>{this.props.name}</a>
-                            {notifications.map(notification => {
-                            return <NotificationItem message={notification.message} read={notification.read} key={notification.id} id={notification.id} date={notification.date} />
-                        })}
-                            
+                                {notifications.map(notification => {
+                                    return <NotificationItem message={notification.message} read={notification.read} key={notification.id} id={notification.id} date={notification.date} />
+                                })}
+
                             </div>
                         </div>
                     </div>
