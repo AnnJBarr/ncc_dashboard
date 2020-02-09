@@ -4,7 +4,7 @@ class SeverityItem extends React.Component {
     render() {
 
         return (
-            <div className="row taskRow mx-auto">
+            <div className="row taskRow">
                 <div className="col-2" id="critical">
                     {this.props.critical}
                 </div>
