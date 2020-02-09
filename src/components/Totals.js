@@ -6,18 +6,8 @@ import SeverityItem from './SeverityItem.js';
 class Totals extends React.Component {
     render() {
         const severityCounts = this.props.severity
-        console.log("sev count", severityCounts)
 
         return (
-
-
-
-
-
-
-
-
-
             <div className="row appRow">
                 <div className="mx-auto col-12 col-lg-10">
 

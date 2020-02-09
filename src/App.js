@@ -159,9 +159,6 @@ class App extends React.Component {
   };
 
   render() {
-    console.log(this.state.user.displayName)
-    console.log(this.state.user.email)
-    console.log(this.state.user.notifications)
 
     return (
       <div className="container">

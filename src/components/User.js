@@ -7,7 +7,6 @@ class User extends React.Component {
     render() {
         const emailLink = "mailto:" + this.props.email + "?Subject=Scan%20dashboard%20message"
         const notifications = this.props.notifications
-        console.log(notifications)
 
         return (
             <div className="row appRow d-none d-md-block">

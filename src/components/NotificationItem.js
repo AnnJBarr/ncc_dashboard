@@ -4,7 +4,6 @@ import { faBookReader } from '@fortawesome/free-solid-svg-icons';
 
 class NotificationItem extends React.Component {
     render() {
-        console.log(this.props.message)
 
         return (
             <div className="row taskRow">
