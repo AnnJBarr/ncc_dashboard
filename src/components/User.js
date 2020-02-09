@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserShield } from '@fortawesome/free-solid-svg-icons';
 import NotificationItem from './NotificationItem'
-
+import './User.css'
 class User extends React.Component {
     render() {
         const emailLink = "mailto:" + this.props.email + "?Subject=Scan%20dashboard%20message"
@@ -12,7 +12,7 @@ class User extends React.Component {
         return (
             <div className="row appRow d-none d-md-block">
                 <div className="mx-auto col-12 col-lg-8">
-                    <div className="card bg-transparent ">
+                    <div className="card bg-transparent text-white">
                         <div className="card-body">
                             <h3 className="card-title">User Details <FontAwesomeIcon icon={faUserShield} /></h3>
                             <div className="card-text">User - <a href={emailLink}>{this.props.name}</a>

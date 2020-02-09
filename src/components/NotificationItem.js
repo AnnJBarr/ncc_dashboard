@@ -1,13 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDotCircle, faClipboardCheck, faTrashAlt, faUndo } from '@fortawesome/free-solid-svg-icons';
+import { faBookReader } from '@fortawesome/free-solid-svg-icons';
 
 class NotificationItem extends React.Component {
     render() {
         console.log(this.props.message)
 
         return (
-            <div>{this.props.message} | {this.props.date} | {this.props.read === true ? <FontAwesomeIcon icon={faDotCircle} />: <FontAwesomeIcon icon={faUndo} />}</div>
+            <div>{this.props.message} | {this.props.date} | {this.props.read === true ? <div id="read"><FontAwesomeIcon icon={faBookReader} /></div>: <div id="unread"><FontAwesomeIcon icon={faBookReader} /></div>}</div>
             // <div className="row taskRow">
             //     <div className="col-1">
             //         {this.props.done === 1 ? <div id="donedot"><FontAwesomeIcon icon={faDotCircle} /></div> : <div id="tododot"><FontAwesomeIcon icon={faDotCircle} /></div>}
