@@ -6,12 +6,6 @@ import NotificationItem from './NotificationItem'
 class User extends React.Component {
     render() {
         const emailLink = "mailto:" + this.props.email + "?Subject=Scan%20dashboard%20message"
-        const readNotification = this.props.notifications.filter(t => {
-            return t.read === true;
-        });
-        const unreadNotification = this.props.notifications.filter(t => {
-            return t.read === false;
-        });
         const notifications = this.props.notifications
         console.log(notifications)
     
