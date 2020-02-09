@@ -9,3 +9,23 @@
 a {
     color: hotpink;
 }
+
+#critical {
+    color: purple;
+}
+
+#high {
+    color: red;
+}
+
+#medium {
+    color: orange;
+}
+
+#low {
+    color: yellow;
+}
+
+#information {
+    color: grey;
+}

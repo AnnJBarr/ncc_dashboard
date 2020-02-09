@@ -11,7 +11,7 @@ class User extends React.Component {
 
         return (
             <div className="row appRow d-none d-md-block">
-                <div className="mx-auto col-12 col-lg-8">
+                <div className="mx-auto col-12 col-lg-10">
                     <div className="card bg-transparent text-white">
                         <div className="card-body">
                             <h3 className="card-title">User Details <FontAwesomeIcon icon={faUserShield} /></h3>
