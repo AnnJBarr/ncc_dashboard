@@ -1,0 +1,9 @@
+.logo-size{
+    width: 40%;
+}
+
+.logo-align{
+    display: flex;
+    justify-content: center;
+    
+}

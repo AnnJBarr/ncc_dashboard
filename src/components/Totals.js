@@ -11,7 +11,7 @@ class Totals extends React.Component {
             
             <div className="row appRow">
                 <div className="mx-auto col-10">
-                    <div className="card bg-transparent text-white">
+                    <div className="card ">
                         <div className="card-body">
                             <h3 className="card-title">Severity <FontAwesomeIcon icon={faExclamationTriangle} /></h3>
                             <div className="card-text">

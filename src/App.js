@@ -4,7 +4,7 @@ import Header from './components/Header.js';
 import User from './components/User.js';
 import Totals from './components/Totals.js';
 import Vulnerabilities from './components/Vulnerabilities.js';
-
+import Footer from './components/Footer.js'
 
 
 class App extends React.Component {
@@ -166,6 +166,7 @@ class App extends React.Component {
         <User name={this.state.user.displayName} email={this.state.user.email} notifications={this.state.user.notifications}/>
         <Totals severity={this.state.scan.severityCounts}/>
         <Vulnerabilities date = {this.state.scan.datCompleted} vulnerabilities={this.state.scan.vulnerabilities}/>
+        <Footer />
 
 
       </div>

@@ -15,17 +15,17 @@ a {
 }
 
 #high {
-    color: red;
+    color: rgb(182, 5, 5);
 }
 
 #medium {
-    color: orange;
+    color: darkorange;
 }
 
 #low {
-    color: yellow;
+    color: rgb(151, 110, 5);
 }
 
 #information {
-    color: grey;
+    color: rgb(97, 96, 96);
 }
