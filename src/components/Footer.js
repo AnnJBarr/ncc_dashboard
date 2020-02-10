@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../images/nccgroup_logo.jpg"
-import './Footer.css'
+// import './Footer.css'
 class Footer extends React.Component {
     render() {
 
@@ -10,7 +10,7 @@ class Footer extends React.Component {
                     <div className="card">
                         <div className="card-body">
                             <div className="text-center">
-                                <h5><img width="360 px" src={logo} alt="log" /> </h5>
+                                <h5><img width="280 px" src={logo} alt="log" /> </h5>
                             </div>
                         </div>
                     </div>
